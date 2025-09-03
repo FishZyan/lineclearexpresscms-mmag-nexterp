@@ -1,0 +1,276 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "field:invoice_no",
+ "creation": "2025-03-06 15:05:53.331517",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "lhdn_submission_information_section",
+  "lhdn_status",
+  "submission_uid",
+  "long_id",
+  "remark",
+  "column_break_ekfy",
+  "batch_id",
+  "uuid",
+  "qr_code_link",
+  "invoices_general_information_section",
+  "invoice_no",
+  "debtor_code",
+  "agent",
+  "docrefno",
+  "document_type",
+  "column_break_wnyv",
+  "invoice_date",
+  "debtor_name",
+  "ip_debtor",
+  "branch_code",
+  "company",
+  "company_address_name",
+  "currency_and_price_section",
+  "currency",
+  "tax",
+  "sub_total_ex",
+  "total",
+  "column_break_mxvd",
+  "tax_percentage",
+  "import_final_total",
+  "import_total_tax"
+ ],
+ "fields": [
+  {
+   "fieldname": "invoice_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Invoice No",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "debtor_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Debtor Code",
+   "reqd": 1
+  },
+  {
+   "fieldname": "agent",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Agent",
+   "reqd": 1
+  },
+  {
+   "fieldname": "docrefno",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Reference Document No"
+  },
+  {
+   "fieldname": "document_type",
+   "fieldtype": "Select",
+   "in_standard_filter": 1,
+   "label": "Document Type",
+   "options": "Invoice\nCredit Note\nDebit Note\nRefund Note\nSelf-billed Invoice\nSelf-billed Credit Note\nSelf-billed Debit Note\nSelf-billed Refund Note",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_wnyv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "invoice_date",
+   "fieldtype": "Date",
+   "in_standard_filter": 1,
+   "label": "Invoice Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "debtor_name",
+   "fieldtype": "Data",
+   "label": "Debtor Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ip_debtor",
+   "fieldtype": "Data",
+   "label": "IP Debtor"
+  },
+  {
+   "fieldname": "branch_code",
+   "fieldtype": "Data",
+   "label": "Branch Code"
+  },
+  {
+   "default": "Line Clear Express Sdn Bhd",
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  },
+  {
+   "default": "Line Clear Express Sdn Bhd-Billing",
+   "fieldname": "company_address_name",
+   "fieldtype": "Link",
+   "label": "Company Address Name",
+   "options": "Address",
+   "reqd": 1
+  },
+  {
+   "fieldname": "invoices_general_information_section",
+   "fieldtype": "Section Break",
+   "label": "Invoices General Information"
+  },
+  {
+   "fieldname": "currency_and_price_section",
+   "fieldtype": "Section Break",
+   "label": "Currency and Price"
+  },
+  {
+   "default": "MYR",
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tax",
+   "fieldtype": "Float",
+   "label": "Tax",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sub_total_ex",
+   "fieldtype": "Float",
+   "label": "Sub-Total (ex)",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Float",
+   "label": "Total",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_mxvd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "6",
+   "fieldname": "tax_percentage",
+   "fieldtype": "Select",
+   "label": "Tax Percentage %",
+   "options": "6",
+   "reqd": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "import_final_total",
+   "fieldtype": "Data",
+   "label": "Import Final Total",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "import_total_tax",
+   "fieldtype": "Data",
+   "label": "Import Total Tax",
+   "read_only": 1
+  },
+  {
+   "fieldname": "lhdn_submission_information_section",
+   "fieldtype": "Section Break",
+   "label": "LHDN Submission Information"
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "Not Yet Submit",
+   "fieldname": "lhdn_status",
+   "fieldtype": "Data",
+   "in_standard_filter": 1,
+   "label": "LHDN Status",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "submission_uid",
+   "fieldtype": "Data",
+   "label": "Submission UID",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "long_id",
+   "fieldtype": "Data",
+   "label": "Long ID",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_ekfy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "batch_id",
+   "fieldtype": "Data",
+   "in_standard_filter": 1,
+   "label": "Batch ID",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "uuid",
+   "fieldtype": "Data",
+   "label": "UUID",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "qr_code_link",
+   "fieldtype": "Attach",
+   "label": "QR Code Link",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "remark",
+   "fieldtype": "Data",
+   "label": "Remark",
+   "read_only": 1
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-03-26 10:06:52.062573",
+ "modified_by": "Administrator",
+ "module": "Lhdn Consolidate Item",
+ "name": "LHDN Consolidate Submission",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
