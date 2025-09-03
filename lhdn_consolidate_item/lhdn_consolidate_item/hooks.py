@@ -8,13 +8,28 @@ app_license = "mit"
 # Apps
 # ------------------
 
-app_include_js = [
-    "/assets/lhdn_consolidate_item/js/lhdn_consolidate_item.js",
-    "/assets/lhdn_consolidate_item/js/lhdn_list_summary.js"
+# No longer use in 
+# app_include_js = [
+#     "/assets/lhdn_consolidate_item/js/lhdn_consolidate_item.js",
+#     "/assets/lhdn_consolidate_item/js/lhdn_list_summary.js"
+# ]
+
+# No longer use in Summary report, all button used from E-Invoice
+# doctype_js = {
+#     "LHDN Consolidate Summary" : "/public/js/lhdn_consolidate_summary.js"
+# }
+
+doctype_list_js  = {
+    "E-Invoice Summary": "/public/js/lhdn_e_invoice_summary.js"
+}
+
+fixtures = [
+    # 'fixtures/sales_taxes_and_charges_template.json',
+    {
+        "doctype": "Custom Field",
+        "filters": [["module", "in", ["Lhdn Consolidate Item"]]]
+    }
 ]
-
-doctype_js = {"LHDN Consolidate Summary" : "/public/js/lhdn_consolidate_summary.js"}
-
 # app_include_js = "/assets/lhdn_consolidate_item/js/lhdn_consolidate_item.js"
 
 # required_apps = []

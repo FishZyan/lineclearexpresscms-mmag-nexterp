@@ -1,3 +1,5 @@
+// No longer use it and update it
+
 frappe.ui.form.on('LHDN Consolidate Summary', {
     refresh_status_btn: function (frm) {
         let uuid = frm.doc.uuid;

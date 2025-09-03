@@ -21,6 +21,9 @@
   "agent",
   "docrefno",
   "document_type",
+  "lhdn_tax_type",
+  "lhdn_tax_code",
+  "tax_exemption_reason",
   "column_break_wnyv",
   "invoice_date",
   "debtor_name",
@@ -51,15 +54,13 @@
    "fieldname": "debtor_code",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Debtor Code",
-   "reqd": 1
+   "label": "Debtor Code"
   },
   {
    "fieldname": "agent",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Agent",
-   "reqd": 1
+   "label": "Agent"
   },
   {
    "fieldname": "docrefno",
@@ -89,8 +90,7 @@
   {
    "fieldname": "debtor_name",
    "fieldtype": "Data",
-   "label": "Debtor Name",
-   "reqd": 1
+   "label": "Debtor Name"
   },
   {
    "fieldname": "ip_debtor",
@@ -166,7 +166,7 @@
    "fieldname": "tax_percentage",
    "fieldtype": "Select",
    "label": "Tax Percentage %",
-   "options": "6",
+   "options": "6\n0",
    "reqd": 1
   },
   {
@@ -243,13 +243,32 @@
    "fieldtype": "Data",
    "label": "Remark",
    "read_only": 1
+  },
+  {
+   "fieldname": "lhdn_tax_type",
+   "fieldtype": "Link",
+   "label": "LHDN Tax Type",
+   "options": "Taxable Types"
+  },
+  {
+   "fetch_from": "lhdn_tax_type.tax_code",
+   "fieldname": "lhdn_tax_code",
+   "fieldtype": "Data",
+   "label": "LHDN Tax Code",
+   "read_only": 1
+  },
+  {
+   "fieldname": "tax_exemption_reason",
+   "fieldtype": "Long Text",
+   "label": "Tax Exemption Reason",
+   "mandatory_depends_on": "eval: doc.lhdn_tax_code == \"E\""
   }
  ],
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-03-26 10:06:52.062573",
+ "modified": "2025-05-08 09:25:16.967320",
  "modified_by": "Administrator",
  "module": "Lhdn Consolidate Item",
  "name": "LHDN Consolidate Submission",

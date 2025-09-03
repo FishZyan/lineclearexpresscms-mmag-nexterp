@@ -1,6 +1,17 @@
-frappe.listview_settings['LHDN Consolidate Submission'] = {
+// Check any existing E-Invoice List View function JavaScript
+const original_e_invoice_listview = frappe.listview_settings['E-Invoice Summary']?.onload
+
+frappe.listview_settings['E-Invoice Summary'] = {
     onload: function(listview) {
-        listview.page.add_button(__('LHDN Consolidate Submission'), function () {
+
+        let finishTriggered = false; 
+
+        // Appened E-Inoivce Listview function
+        if (original_e_invoice_listview) {
+            original_e_invoice_listview(listview)
+        }
+
+        listview.page.add_button(__('Consolidate Submission'), function () {
             
             //Constant Fixed Value
             let today = frappe.datetime.now_date();
@@ -9,7 +20,7 @@ frappe.listview_settings['LHDN Consolidate Submission'] = {
 
             //Pop Out Modal
             let dialog = new frappe.ui.Dialog({
-                title: "LHDN Bulk Submission",
+                title: "E-Invoice Bulk Submission",
                 fields: [
                     {
                         label: "Invoice Start Date",
@@ -26,6 +37,17 @@ frappe.listview_settings['LHDN Consolidate Submission'] = {
                         reqd: 1
                     },
                     {
+                        label: "Source Type",
+                        fieldname: "source_type",
+                        fieldtype: "Select",
+                        options: [
+                            "ERPNEXT System",
+                            //"Manual"
+                        ],
+                        default: "ERPNEXT System",
+                        reqd: 1
+                    },
+                    {
                         label: "Docuement Type",
                         fieldname: "document_type",
                         fieldtype: "Select",
@@ -33,7 +55,7 @@ frappe.listview_settings['LHDN Consolidate Submission'] = {
                             "Invoice",
                             "Credit Note",
                             "Debit Note",
-                            "Refund Note",
+                            //"Refund Note",
                             "Self-billed Invoice",
                             "Self-billed Credit Note",
                             "Self-billed Debit Note",
@@ -97,9 +119,7 @@ frappe.listview_settings['LHDN Consolidate Submission'] = {
                     let progress_key = setupProgressId()
                     if (item_list.length > 0) {
                         track_progress(progress_key);
-                        setTimeout(() => {
-                            bulk_submission(progress_key); 
-                        }, 3000);
+                        bulk_submission(progress_key); 
                     }
                     dialog.hide();
                 }
@@ -112,6 +132,7 @@ frappe.listview_settings['LHDN Consolidate Submission'] = {
                 let end_date = dialog.get_value("invoice_end_date");
                 let document_type = dialog.get_value("document_type");
                 let currency = dialog.get_value("currency")
+                let source_type = dialog.get_value("source_type")
 
                 if (start_date && end_date && document_type && currency) {
                     frappe.call({
@@ -120,7 +141,8 @@ frappe.listview_settings['LHDN Consolidate Submission'] = {
                             start_date: start_date,
                             end_date: end_date,
                             document_type: document_type,
-                            currency: currency
+                            currency: currency,
+                            source_type: source_type
                         },
                         callback: function(response) {
                             let data = response.message;
@@ -165,10 +187,10 @@ frappe.listview_settings['LHDN Consolidate Submission'] = {
                             invoice_number_list: item_list,
                             document_type: dialog.get_value("document_type"),
                             user_email: frappe.session.user_email,
-                            progress_key: progress_key
-                        },
-                        callback: function(response) {
-                            let data = response.message;
+                            progress_key: progress_key,
+                            start_date: dialog.get_value("invoice_from_date"),
+                            end_date: dialog.get_value("invoice_end_date"),
+                            source_type: dialog.get_value("source_type")
                         }
                     });
                 }
@@ -183,6 +205,7 @@ frappe.listview_settings['LHDN Consolidate Submission'] = {
             dialog.fields_dict.invoice_end_date.df.change = item_fetch_list;
             dialog.fields_dict.document_type.df.change = item_fetch_list;
             dialog.fields_dict.currency.df.change = item_fetch_list;
+            dialog.fields_dict.source_type.df.change = item_fetch_list;
 
             dialog.show();
 
@@ -217,9 +240,26 @@ frappe.listview_settings['LHDN Consolidate Submission'] = {
                         let summary_message = formatItemListmessage(progressData.processed_items);
                         let final_message = message + " " + summary_message
                         let progress = parseInt(progressData.progress);
+                        let summary_uuid = progressData.summary_uuid
+                        let user_email = progressData.user_email
+                        let progress_id = progressData.progress_id
+                        let processed_count = progressData.process_count
+                        let total_items = progressData.total_items
         
                         frappe.show_progress('Processing Items', progress, 100, message);
         
+                        if (processed_count >= total_items && !finishTriggered) {
+                            finishTriggered = true;
+                            frappe.call({
+                                method: "lhdn_consolidate_item.lhdn_consolidate_item.lhdn_consolidate_api.finish_consolidate_refresh_function",
+                                args: {
+                                    progress_id: progress_id,
+                                    summary_uuid: summary_uuid,
+                                    user_email: user_email
+                                }    
+                            })
+                        }
+
                         if (is_complete) {
                             clearInterval(interval);
                             frappe.msgprint({
@@ -229,8 +269,7 @@ frappe.listview_settings['LHDN Consolidate Submission'] = {
                                 primary_action: {
                                     label: "OK",
                                     action: function() {
-                                        frappe.set_route("List", "LHDN Consolidate Summary") // Redirect link to Summary page
-                                        // location.reload(); // Reload when user clicks OK
+                                         location.reload(); // Reload when user clicks OK
                                     }
                                 }
                             });

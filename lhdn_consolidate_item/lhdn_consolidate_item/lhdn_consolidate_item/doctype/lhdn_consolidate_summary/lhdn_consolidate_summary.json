@@ -16,6 +16,8 @@
   "lhdn_status",
   "submission_date",
   "validation_date",
+  "invoice_start_date",
+  "invoice_end_date",
   "column_break_uxtz",
   "currency",
   "tax",
@@ -26,6 +28,8 @@
   "refresh_status_btn",
   "submission_no",
   "remark",
+  "source_type",
+  "parent_report",
   "section_break_oocl",
   "lhdn_table_item_list"
  ],
@@ -174,6 +178,35 @@
    "fieldtype": "Data",
    "label": "Remark",
    "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "invoice_start_date",
+   "fieldtype": "Date",
+   "label": "Invoice Start Date",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "invoice_end_date",
+   "fieldtype": "Date",
+   "label": "Invoice End Date",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "source_type",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Source Type",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "parent_report",
+   "fieldtype": "Data",
+   "label": "Parent Report",
+   "read_only": 1
   }
  ],
  "hide_toolbar": 1,
@@ -181,7 +214,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-03-26 10:06:42.501050",
+ "modified": "2025-07-18 00:40:29.340259",
  "modified_by": "Administrator",
  "module": "Lhdn Consolidate Item",
  "name": "LHDN Consolidate Summary",

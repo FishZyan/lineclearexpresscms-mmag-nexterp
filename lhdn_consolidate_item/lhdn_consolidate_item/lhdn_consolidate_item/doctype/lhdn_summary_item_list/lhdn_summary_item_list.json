@@ -1,0 +1,116 @@
+{
+ "actions": [],
+ "autoname": "field:batch_id",
+ "creation": "2025-04-11 14:24:12.797863",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "batch_id",
+  "submission_date",
+  "validation_date",
+  "currency",
+  "sub_total_ex",
+  "tax",
+  "total",
+  "document_type",
+  "cancelled",
+  "invoice_start_date",
+  "invoice_end_date",
+  "billing_period",
+  "lhdn_status",
+  "uuid",
+  "remark"
+ ],
+ "fields": [
+  {
+   "fieldname": "batch_id",
+   "fieldtype": "Data",
+   "label": "Batch ID",
+   "unique": 1
+  },
+  {
+   "fieldname": "uuid",
+   "fieldtype": "Data",
+   "label": "E-Invoice UUID"
+  },
+  {
+   "fieldname": "lhdn_status",
+   "fieldtype": "Data",
+   "label": "E-Invoice Status"
+  },
+  {
+   "fieldname": "billing_period",
+   "fieldtype": "Data",
+   "label": "Billing Period"
+  },
+  {
+   "fieldname": "cancelled",
+   "fieldtype": "Data",
+   "label": "Cancelled"
+  },
+  {
+   "fieldname": "document_type",
+   "fieldtype": "Data",
+   "label": "Document Type"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Data",
+   "label": "Currency"
+  },
+  {
+   "fieldname": "sub_total_ex",
+   "fieldtype": "Float",
+   "label": "Sub-Total (ex)"
+  },
+  {
+   "fieldname": "tax",
+   "fieldtype": "Float",
+   "label": "Tax"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Data",
+   "label": "Total"
+  },
+  {
+   "fieldname": "validation_date",
+   "fieldtype": "Datetime",
+   "label": "Validation Date"
+  },
+  {
+   "fieldname": "submission_date",
+   "fieldtype": "Date",
+   "label": "Submission Date"
+  },
+  {
+   "fieldname": "invoice_start_date",
+   "fieldtype": "Date",
+   "label": "Invoice Start Date"
+  },
+  {
+   "fieldname": "invoice_end_date",
+   "fieldtype": "Date",
+   "label": "Invoice End Date"
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Data",
+   "label": "Remark"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-06-30 15:54:40.582896",
+ "modified_by": "Administrator",
+ "module": "Lhdn Consolidate Item",
+ "name": "LHDN Summary Item List",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

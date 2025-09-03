@@ -1,3 +1,5 @@
+// No longer use it and update it
+
 frappe.listview_settings['LHDN Consolidate Summary'] = {
     onload: function(listview) {
         listview.page.add_button(__('Refresh Status'), function () {

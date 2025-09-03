@@ -1,0 +1,128 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:summary_batch_id",
+ "creation": "2025-04-11 12:02:33.151190",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_n8hl",
+  "summary_batch_id",
+  "submission_date",
+  "grand_total",
+  "total_tax",
+  "total_taxable_amount",
+  "column_break_wcvc",
+  "lhdn_status",
+  "source_type",
+  "document_type",
+  "section_break_cwoq",
+  "lhdn_table_batch_item_list"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_n8hl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "summary_batch_id",
+   "fieldtype": "Data",
+   "label": "Summary Batch ID",
+   "read_only": 1,
+   "unique": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "submission_date",
+   "fieldtype": "Datetime",
+   "label": "Submission Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_wcvc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "lhdn_status",
+   "fieldtype": "Data",
+   "label": "LHDN Status",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_cwoq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "lhdn_table_batch_item_list",
+   "fieldtype": "Table",
+   "label": "Batch Item List",
+   "options": "LHDN Summary Item List",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "source_type",
+   "fieldtype": "Data",
+   "label": "Source Type",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "total_tax",
+   "fieldtype": "Float",
+   "label": "Total Tax",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "total_taxable_amount",
+   "fieldtype": "Float",
+   "label": "Total Taxable Amount",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "grand_total",
+   "fieldtype": "Float",
+   "label": "Grand Total",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "document_type",
+   "fieldtype": "Data",
+   "label": "Document Type",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-05-08 11:09:31.696767",
+ "modified_by": "Administrator",
+ "module": "Lhdn Consolidate Item",
+ "name": "E-Invoice Summary",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
