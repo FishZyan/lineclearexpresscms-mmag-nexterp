@@ -1,0 +1,174 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:DS-{debtor_code}-{from_date}-{to_date}",
+ "creation": "2025-07-23 10:45:38.178794",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "metadata_section",
+  "from_date",
+  "to_date",
+  "letter_head",
+  "company",
+  "department",
+  "column_break_cybo",
+  "debtor_code",
+  "customer",
+  "terms",
+  "bank_account",
+  "custom_status",
+  "schedule_table_section",
+  "column_break_wcko",
+  "table_scheduled_events",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "column_break_cybo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "metadata_section",
+   "fieldtype": "Section Break",
+   "label": "Metadata"
+  },
+  {
+   "fieldname": "letter_head",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Letter Head",
+   "options": "Letter Head",
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Customer",
+   "options": "Customer",
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "fetch_from": "customer.debtor_code",
+   "fieldname": "debtor_code",
+   "fieldtype": "Data",
+   "label": "Debtor Code",
+   "read_only": 1
+  },
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "From Date",
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "To Date",
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "fetch_from": "customer.payment_terms",
+   "fieldname": "terms",
+   "fieldtype": "Data",
+   "label": "Terms"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "default": "MBB - KD (CONTRA)",
+   "fieldname": "bank_account",
+   "fieldtype": "Link",
+   "label": "Bank Account",
+   "options": "Bank Account",
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "default": "Credit Control Department - LCESB",
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "label": "Department",
+   "options": "Department",
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "schedule_table_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_wcko",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "table_scheduled_events",
+   "fieldtype": "Table",
+   "label": "Scheduled Events",
+   "no_copy": 1,
+   "options": "Debtor Statement Events",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Debtor Statement",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "Overdue",
+   "fieldname": "custom_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Overdue\nCleared"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-08-27 10:09:45.242867",
+ "modified_by": "Administrator",
+ "module": "LineClear Custom",
+ "name": "Debtor Statement",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

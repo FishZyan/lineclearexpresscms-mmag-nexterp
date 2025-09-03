@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Resporitory -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Reminder Letter</title>
+</head>
+<body style="margin-bottom: 0px !important; padding-bottom: 0px !important;">
+    <!-- Letter Head -->
+    {% if letter_head %}
+        {{ letter_head }}
+        <br>
+    {% endif %}
+
+    <!-- Metadata -->
+    <div class="container">
+        <div class="row">
+            <div class="col-7">
+                <div class="row mb-2">Date : {{ statement_date }}</div>
+                <div class="row mb-2">
+                    {{ customer.customer_name }}
+                    <br>
+                    {% if address.unit_number %}
+                        {{ address.unit_number }}<br>
+                    {% endif %}
+                    {{ address.address_line1 }}<br>
+                    {% if address.address_line2 %}
+                        {{ address.address_line2 }}<br>
+                    {% endif %}
+                    {{ address.city }}<br>
+                    {{ address.state }}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <!-- Title -->
+    <h5 class="text-left"><strong><u>RE : FINAL PAYMENT REMINDER</u></strong></h5>
+
+    <!-- Content -->
+    <div class="d-flex flex-column" style="height: 950px;">
+        <table>
+            <tr>
+                <td style="padding-right: 20px;">Account No.</td>
+                <td style="padding-right: 10px;">:</td>
+                <td>{{ customer.debtor_code }}</td>
+            </tr>
+            <tr>
+                <td>Outstanding (RM)</td>
+                <td>:</td>
+                <td><strong>{{ "{:,.2f}".format(outstanding_balance) }}</strong></td>
+            </tr>
+        </table>
+        <br>
+        <p>We refer to our repeated reminders and telephone calls for settlement of the amount outstanding. Regretfully, we have no response or payment from you.</p>
+        <p>Please take note that we shall be offering ourselves as trade referee on the conduct of your account with us to CTOS Data Systems Sdn Bhd (CTOS) within fourteen (14) days or less from date of this letter</p>
+        <p>As you aware, CTOS Data Systems Sdn Bhd (CTOS) is a registered Credit Reporting Agency which is widely used by financial institutions and the business community. We shall remain as the trade referee on you/your company as long as the uncollectable accounts receivables to us from you remains unsettled.</p>
+        <p>We look forward to your prompt response with fourteen (14) days from the date of this letter, failing which your name will be submitted to CTOS Data Systems Sdn Bhd (CTOS).</p>
+        <p>All payments shall be made payable to:</p>
+        <p>
+            {{ company }}
+            <br>
+            {{ bank.bank }} Account No : {{ bank.bank_account_no }}
+        </p>
+        <p>If the payment has been made please disregard this letter.</p>
+        <p>For any further clarification, kindly contact {{ department.parent_department }}, {{ department.department_name }} at {{ department.phone }} or email to {{ department.email }}.</p>
+        <p>Thank you.</p>
+        <br>
+        <p>{{ department.parent_department }}, {{ department.department_name }}</p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center mt-auto">
+        <p><strong><i>This letter is computer generated and no signature is required.</i></strong></p>
+        <p>
+            No.3, Jalan TP 2, Taman Perindustrian UEP Subang Jaya, 47600 Subang Jaya, Selangor Darul Ehsan.
+            <br>
+            <strong>T</strong> +6016 501 5050 F +603 - 7890 3536 │ <strong>W</strong> www.lineclearexpress.com
+        </p>
+    </footer>
+</body>
+</html>

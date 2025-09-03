@@ -1,0 +1,25 @@
+[
+ {
+  "align": "Right",
+  "content": "<!-- Letter Head -->\n<div style=\"display: flex; width: 100%; margin-top: 0px; padding-top:0 px;\"> \n    <!-- Logo on the left --> \n    <div style=\"flex: 1; text-align: center; margin-top: 0; margin-left: 0;\"> \n        <img src=\"/files/linecleardoubleline.png\" alt=\"Company Logo\" style=\"max-height: 200px; max-width: 250px;\"> \n    </div> \n    <div style=\"flex: 2; text-align: center; margin-left: -50px; margin-top: 0px; line-height: 0.3rem;\"> \n        <h5><strong>LINE CLEAR EXPRESS SDN BHD</strong></h5> \n        <p><small>(Formerly known as Line Clear Express &amp; Logistics Sdn Bhd (201301002482(1032320-W)))</small></p>\n        <br>\n        <p>No.3, Jalan TP2, Taman Perindustrian UEP</p> \n        <br> \n        <p>Subang Jaya, 47600 Subang Jaya, Selangor Darul Ehsan.</p> \n        <br> \n        <p>Tel: 603-7890 3535</p> \n        <br> \n        <p>Tin No : C23050656090&emsp;Service Tax No : B16-1808-3104-2876</p> \n    </div> \n</div>",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Letter Head",
+  "footer": null,
+  "footer_align": "Left",
+  "footer_image": null,
+  "footer_image_height": 0.0,
+  "footer_image_width": 0.0,
+  "footer_script": null,
+  "footer_source": "HTML",
+  "header_script": null,
+  "image": "",
+  "image_height": 53.414031621,
+  "image_width": 95.0,
+  "is_default": 1,
+  "letter_head_name": "Line Clear Express Sdn Bhd",
+  "modified": "2025-08-11 10:41:18.855343",
+  "name": "Line Clear Express Sdn Bhd",
+  "source": "HTML"
+ }
+]

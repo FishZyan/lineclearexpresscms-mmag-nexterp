@@ -1,0 +1,154 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-05-01 17:30:00.221789",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "column_break_abmg",
+  "account",
+  "description",
+  "amount",
+  "reference_type",
+  "reference",
+  "tax_type",
+  "tax_code",
+  "tax_amount",
+  "item_classification_code",
+  "lhdn_tax_type",
+  "lhdn_tax_type_code",
+  "exemption_description",
+  "tax_account",
+  "cost_center"
+ ],
+ "fields": [
+  {
+   "bold": 1,
+   "columns": 1,
+   "fieldname": "account",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Account",
+   "options": "Account",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "columns": 1,
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Description",
+   "reqd": 1
+  },
+  {
+   "columns": 1,
+   "default": "0",
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Amount",
+   "reqd": 1
+  },
+  {
+   "columns": 1,
+   "fieldname": "reference_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Reference Type",
+   "options": "\nSales Invoice\nJournal Entry\nPurchase Invoice"
+  },
+  {
+   "columns": 1,
+   "fieldname": "tax_code",
+   "fieldtype": "Dynamic Link",
+   "in_list_view": 1,
+   "label": "Tax Code",
+   "options": "tax_type"
+  },
+  {
+   "columns": 1,
+   "default": "0",
+   "fieldname": "tax_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Tax Amount"
+  },
+  {
+   "columns": 1,
+   "fieldname": "item_classification_code",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item Classification Code",
+   "options": "Item Classification Codes"
+  },
+  {
+   "columns": 1,
+   "fieldname": "lhdn_tax_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "LHDN Tax Type",
+   "options": "Taxable Types"
+  },
+  {
+   "columns": 1,
+   "fetch_from": "lhdn_tax_type.tax_code",
+   "fieldname": "lhdn_tax_type_code",
+   "fieldtype": "Data",
+   "label": "LHDN Tax Type Code"
+  },
+  {
+   "columns": 1,
+   "fieldname": "exemption_description",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Exemption Description",
+   "mandatory_depends_on": "eval:doc.lhdn_tax_type_code === 'E'"
+  },
+  {
+   "columns": 1,
+   "fieldname": "column_break_abmg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 1,
+   "fieldname": "reference",
+   "fieldtype": "Dynamic Link",
+   "in_list_view": 1,
+   "label": "Reference Name",
+   "options": "reference_type",
+   "search_index": 1
+  },
+  {
+   "fieldname": "tax_account",
+   "fieldtype": "Link",
+   "label": "Tax Account",
+   "options": "Account"
+  },
+  {
+   "fieldname": "tax_type",
+   "fieldtype": "Select",
+   "label": "Tax Type",
+   "options": "Sales Taxes and Charges Template\nPurchase Taxes and Charges Template"
+  },
+  {
+   "fieldname": "cost_center",
+   "fieldtype": "Link",
+   "label": "Cost Center",
+   "options": "Cost Center"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-08-04 14:51:21.236682",
+ "modified_by": "Administrator",
+ "module": "LineClear Custom",
+ "name": "Journal Entry LHDN",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

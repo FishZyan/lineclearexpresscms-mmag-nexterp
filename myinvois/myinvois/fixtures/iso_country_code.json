@@ -1,0 +1,2243 @@
+[
+ {
+  "country_code_a2": "af",
+  "country_code_a3": "AFG",
+  "country_name": "Afghanistan",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.786603",
+  "name": "AFG"
+ },
+ {
+  "country_code_a2": "ax",
+  "country_code_a3": "ALA",
+  "country_name": "Åland Islands",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.803886",
+  "name": "ALA"
+ },
+ {
+  "country_code_a2": "al",
+  "country_code_a3": "ALB",
+  "country_name": "Albania",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.812527",
+  "name": "ALB"
+ },
+ {
+  "country_code_a2": "dz",
+  "country_code_a3": "DZA",
+  "country_name": "Algeria",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.816463",
+  "name": "DZA"
+ },
+ {
+  "country_code_a2": "as",
+  "country_code_a3": "ASM",
+  "country_name": "American Samoa",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.820733",
+  "name": "ASM"
+ },
+ {
+  "country_code_a2": "ad",
+  "country_code_a3": "AND",
+  "country_name": "Andorra",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.824564",
+  "name": "AND"
+ },
+ {
+  "country_code_a2": "ao",
+  "country_code_a3": "AGO",
+  "country_name": "Angola",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.828436",
+  "name": "AGO"
+ },
+ {
+  "country_code_a2": "ai",
+  "country_code_a3": "AIA",
+  "country_name": "Anguilla",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.831646",
+  "name": "AIA"
+ },
+ {
+  "country_code_a2": "aq",
+  "country_code_a3": "ATA",
+  "country_name": "Antarctica",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.835500",
+  "name": "ATA"
+ },
+ {
+  "country_code_a2": "ag",
+  "country_code_a3": "ATG",
+  "country_name": "Antigua and Barbuda",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.838706",
+  "name": "ATG"
+ },
+ {
+  "country_code_a2": "ar",
+  "country_code_a3": "ARG",
+  "country_name": "Argentina",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.842556",
+  "name": "ARG"
+ },
+ {
+  "country_code_a2": "am",
+  "country_code_a3": "ARM",
+  "country_name": "Armenia",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.845886",
+  "name": "ARM"
+ },
+ {
+  "country_code_a2": "aw",
+  "country_code_a3": "ABW",
+  "country_name": "Aruba",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.849705",
+  "name": "ABW"
+ },
+ {
+  "country_code_a2": "au",
+  "country_code_a3": "AUS",
+  "country_name": "Australia",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.852818",
+  "name": "AUS"
+ },
+ {
+  "country_code_a2": "at",
+  "country_code_a3": "AUT",
+  "country_name": "Austria",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.856691",
+  "name": "AUT"
+ },
+ {
+  "country_code_a2": "az",
+  "country_code_a3": "AZE",
+  "country_name": "Azerbaijan",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.859907",
+  "name": "AZE"
+ },
+ {
+  "country_code_a2": "bs",
+  "country_code_a3": "BHS",
+  "country_name": "Bahamas",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.863699",
+  "name": "BHS"
+ },
+ {
+  "country_code_a2": "bh",
+  "country_code_a3": "BHR",
+  "country_name": "Bahrain",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.866930",
+  "name": "BHR"
+ },
+ {
+  "country_code_a2": "bd",
+  "country_code_a3": "BGD",
+  "country_name": "Bangladesh",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.870676",
+  "name": "BGD"
+ },
+ {
+  "country_code_a2": "bb",
+  "country_code_a3": "BRB",
+  "country_name": "Barbados",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.873874",
+  "name": "BRB"
+ },
+ {
+  "country_code_a2": "by",
+  "country_code_a3": "BLR",
+  "country_name": "Belarus",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.877732",
+  "name": "BLR"
+ },
+ {
+  "country_code_a2": "be",
+  "country_code_a3": "BEL",
+  "country_name": "Belgium",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.881012",
+  "name": "BEL"
+ },
+ {
+  "country_code_a2": "bz",
+  "country_code_a3": "BLZ",
+  "country_name": "Belize",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.884686",
+  "name": "BLZ"
+ },
+ {
+  "country_code_a2": "bj",
+  "country_code_a3": "BEN",
+  "country_name": "Benin",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.887854",
+  "name": "BEN"
+ },
+ {
+  "country_code_a2": "bm",
+  "country_code_a3": "BMU",
+  "country_name": "Bermuda",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.891629",
+  "name": "BMU"
+ },
+ {
+  "country_code_a2": "bt",
+  "country_code_a3": "BTN",
+  "country_name": "Bhutan",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.894774",
+  "name": "BTN"
+ },
+ {
+  "country_code_a2": "bo",
+  "country_code_a3": "BOL",
+  "country_name": "Bolivia, Plurinational State of",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.898466",
+  "name": "BOL"
+ },
+ {
+  "country_code_a2": "bq",
+  "country_code_a3": "BES",
+  "country_name": "Bonaire, Sint Eustatius and Saba",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.901759",
+  "name": "BES"
+ },
+ {
+  "country_code_a2": "ba",
+  "country_code_a3": "BIH",
+  "country_name": "Bosnia and Herzegovina",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.905652",
+  "name": "BIH"
+ },
+ {
+  "country_code_a2": "bw",
+  "country_code_a3": "BWA",
+  "country_name": "Botswana",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.908869",
+  "name": "BWA"
+ },
+ {
+  "country_code_a2": "bv",
+  "country_code_a3": "BVT",
+  "country_name": "Bouvet Island",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.912560",
+  "name": "BVT"
+ },
+ {
+  "country_code_a2": "br",
+  "country_code_a3": "BRA",
+  "country_name": "Brazil",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.915973",
+  "name": "BRA"
+ },
+ {
+  "country_code_a2": "io",
+  "country_code_a3": "IOT",
+  "country_name": "British Indian Ocean Territory",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.920086",
+  "name": "IOT"
+ },
+ {
+  "country_code_a2": "bn",
+  "country_code_a3": "BRN",
+  "country_name": "Brunei Darussalam",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.923682",
+  "name": "BRN"
+ },
+ {
+  "country_code_a2": "bg",
+  "country_code_a3": "BGR",
+  "country_name": "Bulgaria",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.927778",
+  "name": "BGR"
+ },
+ {
+  "country_code_a2": "bf",
+  "country_code_a3": "BFA",
+  "country_name": "Burkina Faso",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.931271",
+  "name": "BFA"
+ },
+ {
+  "country_code_a2": "bi",
+  "country_code_a3": "BDI",
+  "country_name": "Burundi",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.935121",
+  "name": "BDI"
+ },
+ {
+  "country_code_a2": "cv",
+  "country_code_a3": "CPV",
+  "country_name": "Cabo Verde",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.938497",
+  "name": "CPV"
+ },
+ {
+  "country_code_a2": "kh",
+  "country_code_a3": "KHM",
+  "country_name": "Cambodia",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.942350",
+  "name": "KHM"
+ },
+ {
+  "country_code_a2": "cm",
+  "country_code_a3": "CMR",
+  "country_name": "Cameroon",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.945542",
+  "name": "CMR"
+ },
+ {
+  "country_code_a2": "ca",
+  "country_code_a3": "CAN",
+  "country_name": "Canada",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.949337",
+  "name": "CAN"
+ },
+ {
+  "country_code_a2": "ky",
+  "country_code_a3": "CYM",
+  "country_name": "Cayman Islands",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.952524",
+  "name": "CYM"
+ },
+ {
+  "country_code_a2": "cf",
+  "country_code_a3": "CAF",
+  "country_name": "Central African Republic",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.956234",
+  "name": "CAF"
+ },
+ {
+  "country_code_a2": "td",
+  "country_code_a3": "TCD",
+  "country_name": "Chad",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.959690",
+  "name": "TCD"
+ },
+ {
+  "country_code_a2": "cl",
+  "country_code_a3": "CHL",
+  "country_name": "Chile",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.963733",
+  "name": "CHL"
+ },
+ {
+  "country_code_a2": "cn",
+  "country_code_a3": "CHN",
+  "country_name": "China",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.966933",
+  "name": "CHN"
+ },
+ {
+  "country_code_a2": "cx",
+  "country_code_a3": "CXR",
+  "country_name": "Christmas Island",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.971406",
+  "name": "CXR"
+ },
+ {
+  "country_code_a2": "cc",
+  "country_code_a3": "CCK",
+  "country_name": "Cocos (Keeling) Islands",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.974692",
+  "name": "CCK"
+ },
+ {
+  "country_code_a2": "co",
+  "country_code_a3": "COL",
+  "country_name": "Colombia",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.978507",
+  "name": "COL"
+ },
+ {
+  "country_code_a2": "km",
+  "country_code_a3": "COM",
+  "country_name": "Comoros",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.981710",
+  "name": "COM"
+ },
+ {
+  "country_code_a2": "cg",
+  "country_code_a3": "COG",
+  "country_name": "Congo",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.985468",
+  "name": "COG"
+ },
+ {
+  "country_code_a2": "cd",
+  "country_code_a3": "COD",
+  "country_name": "Congo, Democratic Republic of the",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.988475",
+  "name": "COD"
+ },
+ {
+  "country_code_a2": "ck",
+  "country_code_a3": "COK",
+  "country_name": "Cook Islands",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.992212",
+  "name": "COK"
+ },
+ {
+  "country_code_a2": "cr",
+  "country_code_a3": "CRI",
+  "country_name": "Costa Rica",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.995531",
+  "name": "CRI"
+ },
+ {
+  "country_code_a2": "ci",
+  "country_code_a3": "CIV",
+  "country_name": "Côte d'Ivoire",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:28.999232",
+  "name": "CIV"
+ },
+ {
+  "country_code_a2": "hr",
+  "country_code_a3": "HRV",
+  "country_name": "Croatia",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.002424",
+  "name": "HRV"
+ },
+ {
+  "country_code_a2": "cu",
+  "country_code_a3": "CUB",
+  "country_name": "Cuba",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.006035",
+  "name": "CUB"
+ },
+ {
+  "country_code_a2": "cw",
+  "country_code_a3": "CUW",
+  "country_name": "Curaçao",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.009432",
+  "name": "CUW"
+ },
+ {
+  "country_code_a2": "cy",
+  "country_code_a3": "CYP",
+  "country_name": "Cyprus",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.013632",
+  "name": "CYP"
+ },
+ {
+  "country_code_a2": "cz",
+  "country_code_a3": "CZE",
+  "country_name": "Czechia",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.017542",
+  "name": "CZE"
+ },
+ {
+  "country_code_a2": "dk",
+  "country_code_a3": "DNK",
+  "country_name": "Denmark",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.021485",
+  "name": "DNK"
+ },
+ {
+  "country_code_a2": "dj",
+  "country_code_a3": "DJI",
+  "country_name": "Djibouti",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.025154",
+  "name": "DJI"
+ },
+ {
+  "country_code_a2": "dm",
+  "country_code_a3": "DMA",
+  "country_name": "Dominica",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.029054",
+  "name": "DMA"
+ },
+ {
+  "country_code_a2": "do",
+  "country_code_a3": "DOM",
+  "country_name": "Dominican Republic",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.032342",
+  "name": "DOM"
+ },
+ {
+  "country_code_a2": "ec",
+  "country_code_a3": "ECU",
+  "country_name": "Ecuador",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.036148",
+  "name": "ECU"
+ },
+ {
+  "country_code_a2": "eg",
+  "country_code_a3": "EGY",
+  "country_name": "Egypt",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.039325",
+  "name": "EGY"
+ },
+ {
+  "country_code_a2": "sv",
+  "country_code_a3": "SLV",
+  "country_name": "El Salvador",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.043037",
+  "name": "SLV"
+ },
+ {
+  "country_code_a2": "gq",
+  "country_code_a3": "GNQ",
+  "country_name": "Equatorial Guinea",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.046314",
+  "name": "GNQ"
+ },
+ {
+  "country_code_a2": "er",
+  "country_code_a3": "ERI",
+  "country_name": "Eritrea",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.050133",
+  "name": "ERI"
+ },
+ {
+  "country_code_a2": "ee",
+  "country_code_a3": "EST",
+  "country_name": "Estonia",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.053528",
+  "name": "EST"
+ },
+ {
+  "country_code_a2": "sz",
+  "country_code_a3": "SWZ",
+  "country_name": "Eswatini",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.057358",
+  "name": "SWZ"
+ },
+ {
+  "country_code_a2": "et",
+  "country_code_a3": "ETH",
+  "country_name": "Ethiopia",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.060545",
+  "name": "ETH"
+ },
+ {
+  "country_code_a2": "fk",
+  "country_code_a3": "FLK",
+  "country_name": "Falkland Islands (Malvinas)",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.064274",
+  "name": "FLK"
+ },
+ {
+  "country_code_a2": "fo",
+  "country_code_a3": "FRO",
+  "country_name": "Faroe Islands",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.067572",
+  "name": "FRO"
+ },
+ {
+  "country_code_a2": "fj",
+  "country_code_a3": "FJI",
+  "country_name": "Fiji",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.071364",
+  "name": "FJI"
+ },
+ {
+  "country_code_a2": "fi",
+  "country_code_a3": "FIN",
+  "country_name": "Finland",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.074681",
+  "name": "FIN"
+ },
+ {
+  "country_code_a2": "fr",
+  "country_code_a3": "FRA",
+  "country_name": "France",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.078476",
+  "name": "FRA"
+ },
+ {
+  "country_code_a2": "gf",
+  "country_code_a3": "GUF",
+  "country_name": "French Guiana",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.081793",
+  "name": "GUF"
+ },
+ {
+  "country_code_a2": "pf",
+  "country_code_a3": "PYF",
+  "country_name": "French Polynesia",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.085478",
+  "name": "PYF"
+ },
+ {
+  "country_code_a2": "tf",
+  "country_code_a3": "ATF",
+  "country_name": "French Southern Territories",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.088531",
+  "name": "ATF"
+ },
+ {
+  "country_code_a2": "ga",
+  "country_code_a3": "GAB",
+  "country_name": "Gabon",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.092306",
+  "name": "GAB"
+ },
+ {
+  "country_code_a2": "gm",
+  "country_code_a3": "GMB",
+  "country_name": "Gambia",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.095668",
+  "name": "GMB"
+ },
+ {
+  "country_code_a2": "ge",
+  "country_code_a3": "GEO",
+  "country_name": "Georgia",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.099503",
+  "name": "GEO"
+ },
+ {
+  "country_code_a2": "de",
+  "country_code_a3": "DEU",
+  "country_name": "Germany",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.102725",
+  "name": "DEU"
+ },
+ {
+  "country_code_a2": "gh",
+  "country_code_a3": "GHA",
+  "country_name": "Ghana",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.106468",
+  "name": "GHA"
+ },
+ {
+  "country_code_a2": "gi",
+  "country_code_a3": "GIB",
+  "country_name": "Gibraltar",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.109572",
+  "name": "GIB"
+ },
+ {
+  "country_code_a2": "gr",
+  "country_code_a3": "GRC",
+  "country_name": "Greece",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.113337",
+  "name": "GRC"
+ },
+ {
+  "country_code_a2": "gl",
+  "country_code_a3": "GRL",
+  "country_name": "Greenland",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.116693",
+  "name": "GRL"
+ },
+ {
+  "country_code_a2": "gd",
+  "country_code_a3": "GRD",
+  "country_name": "Grenada",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.120614",
+  "name": "GRD"
+ },
+ {
+  "country_code_a2": "gp",
+  "country_code_a3": "GLP",
+  "country_name": "Guadeloupe",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.124025",
+  "name": "GLP"
+ },
+ {
+  "country_code_a2": "gu",
+  "country_code_a3": "GUM",
+  "country_name": "Guam",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.128087",
+  "name": "GUM"
+ },
+ {
+  "country_code_a2": "gt",
+  "country_code_a3": "GTM",
+  "country_name": "Guatemala",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.131572",
+  "name": "GTM"
+ },
+ {
+  "country_code_a2": "gg",
+  "country_code_a3": "GGY",
+  "country_name": "Guernsey",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.135548",
+  "name": "GGY"
+ },
+ {
+  "country_code_a2": "gn",
+  "country_code_a3": "GIN",
+  "country_name": "Guinea",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.138766",
+  "name": "GIN"
+ },
+ {
+  "country_code_a2": "gw",
+  "country_code_a3": "GNB",
+  "country_name": "Guinea-Bissau",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.142614",
+  "name": "GNB"
+ },
+ {
+  "country_code_a2": "gy",
+  "country_code_a3": "GUY",
+  "country_name": "Guyana",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.145827",
+  "name": "GUY"
+ },
+ {
+  "country_code_a2": "ht",
+  "country_code_a3": "HTI",
+  "country_name": "Haiti",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.149621",
+  "name": "HTI"
+ },
+ {
+  "country_code_a2": "hm",
+  "country_code_a3": "HMD",
+  "country_name": "Heard Island and McDonald Islands",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.152891",
+  "name": "HMD"
+ },
+ {
+  "country_code_a2": "va",
+  "country_code_a3": "VAT",
+  "country_name": "Holy See",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.156727",
+  "name": "VAT"
+ },
+ {
+  "country_code_a2": "hn",
+  "country_code_a3": "HND",
+  "country_name": "Honduras",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.159926",
+  "name": "HND"
+ },
+ {
+  "country_code_a2": "hk",
+  "country_code_a3": "HKG",
+  "country_name": "Hong Kong",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.163743",
+  "name": "HKG"
+ },
+ {
+  "country_code_a2": "hu",
+  "country_code_a3": "HUN",
+  "country_name": "Hungary",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.166870",
+  "name": "HUN"
+ },
+ {
+  "country_code_a2": "is",
+  "country_code_a3": "ISL",
+  "country_name": "Iceland",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.170548",
+  "name": "ISL"
+ },
+ {
+  "country_code_a2": "in",
+  "country_code_a3": "IND",
+  "country_name": "India",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.173824",
+  "name": "IND"
+ },
+ {
+  "country_code_a2": "id",
+  "country_code_a3": "IDN",
+  "country_name": "Indonesia",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.177660",
+  "name": "IDN"
+ },
+ {
+  "country_code_a2": "ir",
+  "country_code_a3": "IRN",
+  "country_name": "Iran, Islamic Republic of",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.180925",
+  "name": "IRN"
+ },
+ {
+  "country_code_a2": "iq",
+  "country_code_a3": "IRQ",
+  "country_name": "Iraq",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.184578",
+  "name": "IRQ"
+ },
+ {
+  "country_code_a2": "ie",
+  "country_code_a3": "IRL",
+  "country_name": "Ireland",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.187815",
+  "name": "IRL"
+ },
+ {
+  "country_code_a2": "im",
+  "country_code_a3": "IMN",
+  "country_name": "Isle of Man",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.191580",
+  "name": "IMN"
+ },
+ {
+  "country_code_a2": "il",
+  "country_code_a3": "ISR",
+  "country_name": "Israel",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.194834",
+  "name": "ISR"
+ },
+ {
+  "country_code_a2": "it",
+  "country_code_a3": "ITA",
+  "country_name": "Italy",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.198597",
+  "name": "ITA"
+ },
+ {
+  "country_code_a2": "jm",
+  "country_code_a3": "JAM",
+  "country_name": "Jamaica",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.201875",
+  "name": "JAM"
+ },
+ {
+  "country_code_a2": "jp",
+  "country_code_a3": "JPN",
+  "country_name": "Japan",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.205648",
+  "name": "JPN"
+ },
+ {
+  "country_code_a2": "je",
+  "country_code_a3": "JEY",
+  "country_name": "Jersey",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.208855",
+  "name": "JEY"
+ },
+ {
+  "country_code_a2": "jo",
+  "country_code_a3": "JOR",
+  "country_name": "Jordan",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.213453",
+  "name": "JOR"
+ },
+ {
+  "country_code_a2": "kz",
+  "country_code_a3": "KAZ",
+  "country_name": "Kazakhstan",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.216755",
+  "name": "KAZ"
+ },
+ {
+  "country_code_a2": "ke",
+  "country_code_a3": "KEN",
+  "country_name": "Kenya",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.220686",
+  "name": "KEN"
+ },
+ {
+  "country_code_a2": "ki",
+  "country_code_a3": "KIR",
+  "country_name": "Kiribati",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.224397",
+  "name": "KIR"
+ },
+ {
+  "country_code_a2": "kp",
+  "country_code_a3": "PRK",
+  "country_name": "Korea, Democratic People's Republic of",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.228161",
+  "name": "PRK"
+ },
+ {
+  "country_code_a2": "kr",
+  "country_code_a3": "KOR",
+  "country_name": "Korea, Republic of",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.231386",
+  "name": "KOR"
+ },
+ {
+  "country_code_a2": "kw",
+  "country_code_a3": "KWT",
+  "country_name": "Kuwait",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.235005",
+  "name": "KWT"
+ },
+ {
+  "country_code_a2": "kg",
+  "country_code_a3": "KGZ",
+  "country_name": "Kyrgyzstan",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.238257",
+  "name": "KGZ"
+ },
+ {
+  "country_code_a2": "la",
+  "country_code_a3": "LAO",
+  "country_name": "Lao People's Democratic Republic",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.242283",
+  "name": "LAO"
+ },
+ {
+  "country_code_a2": "lv",
+  "country_code_a3": "LVA",
+  "country_name": "Latvia",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.245604",
+  "name": "LVA"
+ },
+ {
+  "country_code_a2": "lb",
+  "country_code_a3": "LBN",
+  "country_name": "Lebanon",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.249529",
+  "name": "LBN"
+ },
+ {
+  "country_code_a2": "ls",
+  "country_code_a3": "LSO",
+  "country_name": "Lesotho",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.253905",
+  "name": "LSO"
+ },
+ {
+  "country_code_a2": "lr",
+  "country_code_a3": "LBR",
+  "country_name": "Liberia",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.257881",
+  "name": "LBR"
+ },
+ {
+  "country_code_a2": "ly",
+  "country_code_a3": "LBY",
+  "country_name": "Libya",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.261461",
+  "name": "LBY"
+ },
+ {
+  "country_code_a2": "li",
+  "country_code_a3": "LIE",
+  "country_name": "Liechtenstein",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.265331",
+  "name": "LIE"
+ },
+ {
+  "country_code_a2": "lt",
+  "country_code_a3": "LTU",
+  "country_name": "Lithuania",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.268668",
+  "name": "LTU"
+ },
+ {
+  "country_code_a2": "lu",
+  "country_code_a3": "LUX",
+  "country_name": "Luxembourg",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.272466",
+  "name": "LUX"
+ },
+ {
+  "country_code_a2": "mo",
+  "country_code_a3": "MAC",
+  "country_name": "Macao",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.275849",
+  "name": "MAC"
+ },
+ {
+  "country_code_a2": "mg",
+  "country_code_a3": "MDG",
+  "country_name": "Madagascar",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.279568",
+  "name": "MDG"
+ },
+ {
+  "country_code_a2": "mw",
+  "country_code_a3": "MWI",
+  "country_name": "Malawi",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.282704",
+  "name": "MWI"
+ },
+ {
+  "country_code_a2": "my",
+  "country_code_a3": "MYS",
+  "country_name": "Malaysia",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.286476",
+  "name": "MYS"
+ },
+ {
+  "country_code_a2": "mv",
+  "country_code_a3": "MDV",
+  "country_name": "Maldives",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.289609",
+  "name": "MDV"
+ },
+ {
+  "country_code_a2": "ml",
+  "country_code_a3": "MLI",
+  "country_name": "Mali",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.293321",
+  "name": "MLI"
+ },
+ {
+  "country_code_a2": "mt",
+  "country_code_a3": "MLT",
+  "country_name": "Malta",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.296661",
+  "name": "MLT"
+ },
+ {
+  "country_code_a2": "mh",
+  "country_code_a3": "MHL",
+  "country_name": "Marshall Islands",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.300394",
+  "name": "MHL"
+ },
+ {
+  "country_code_a2": "mq",
+  "country_code_a3": "MTQ",
+  "country_name": "Martinique",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.303525",
+  "name": "MTQ"
+ },
+ {
+  "country_code_a2": "mr",
+  "country_code_a3": "MRT",
+  "country_name": "Mauritania",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.307182",
+  "name": "MRT"
+ },
+ {
+  "country_code_a2": "mu",
+  "country_code_a3": "MUS",
+  "country_name": "Mauritius",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.310414",
+  "name": "MUS"
+ },
+ {
+  "country_code_a2": "yt",
+  "country_code_a3": "MYT",
+  "country_name": "Mayotte",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.313939",
+  "name": "MYT"
+ },
+ {
+  "country_code_a2": "mx",
+  "country_code_a3": "MEX",
+  "country_name": "Mexico",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.317098",
+  "name": "MEX"
+ },
+ {
+  "country_code_a2": "fm",
+  "country_code_a3": "FSM",
+  "country_name": "Micronesia, Federated States of",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.320663",
+  "name": "FSM"
+ },
+ {
+  "country_code_a2": "md",
+  "country_code_a3": "MDA",
+  "country_name": "Moldova, Republic of",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.323703",
+  "name": "MDA"
+ },
+ {
+  "country_code_a2": "mc",
+  "country_code_a3": "MCO",
+  "country_name": "Monaco",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.327549",
+  "name": "MCO"
+ },
+ {
+  "country_code_a2": "mn",
+  "country_code_a3": "MNG",
+  "country_name": "Mongolia",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.330624",
+  "name": "MNG"
+ },
+ {
+  "country_code_a2": "me",
+  "country_code_a3": "MNE",
+  "country_name": "Montenegro",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.335004",
+  "name": "MNE"
+ },
+ {
+  "country_code_a2": "ms",
+  "country_code_a3": "MSR",
+  "country_name": "Montserrat",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.338699",
+  "name": "MSR"
+ },
+ {
+  "country_code_a2": "ma",
+  "country_code_a3": "MAR",
+  "country_name": "Morocco",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.341770",
+  "name": "MAR"
+ },
+ {
+  "country_code_a2": "mz",
+  "country_code_a3": "MOZ",
+  "country_name": "Mozambique",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.348747",
+  "name": "MOZ"
+ },
+ {
+  "country_code_a2": "mm",
+  "country_code_a3": "MMR",
+  "country_name": "Myanmar",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.352341",
+  "name": "MMR"
+ },
+ {
+  "country_code_a2": "na",
+  "country_code_a3": "NAM",
+  "country_name": "Namibia",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.356195",
+  "name": "NAM"
+ },
+ {
+  "country_code_a2": "nr",
+  "country_code_a3": "NRU",
+  "country_name": "Nauru",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.359516",
+  "name": "NRU"
+ },
+ {
+  "country_code_a2": "np",
+  "country_code_a3": "NPL",
+  "country_name": "Nepal",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.363162",
+  "name": "NPL"
+ },
+ {
+  "country_code_a2": "nl",
+  "country_code_a3": "NLD",
+  "country_name": "Netherlands, Kingdom of the",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.366440",
+  "name": "NLD"
+ },
+ {
+  "country_code_a2": "nc",
+  "country_code_a3": "NCL",
+  "country_name": "New Caledonia",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.370318",
+  "name": "NCL"
+ },
+ {
+  "country_code_a2": "nz",
+  "country_code_a3": "NZL",
+  "country_name": "New Zealand",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.373585",
+  "name": "NZL"
+ },
+ {
+  "country_code_a2": "ni",
+  "country_code_a3": "NIC",
+  "country_name": "Nicaragua",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.377103",
+  "name": "NIC"
+ },
+ {
+  "country_code_a2": "ne",
+  "country_code_a3": "NER",
+  "country_name": "Niger",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.380109",
+  "name": "NER"
+ },
+ {
+  "country_code_a2": "ng",
+  "country_code_a3": "NGA",
+  "country_name": "Nigeria",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.390423",
+  "name": "NGA"
+ },
+ {
+  "country_code_a2": "nu",
+  "country_code_a3": "NIU",
+  "country_name": "Niue",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.394160",
+  "name": "NIU"
+ },
+ {
+  "country_code_a2": "nf",
+  "country_code_a3": "NFK",
+  "country_name": "Norfolk Island",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.398019",
+  "name": "NFK"
+ },
+ {
+  "country_code_a2": "mk",
+  "country_code_a3": "MKD",
+  "country_name": "North Macedonia",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.401511",
+  "name": "MKD"
+ },
+ {
+  "country_code_a2": "mp",
+  "country_code_a3": "MNP",
+  "country_name": "Northern Mariana Islands",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.405235",
+  "name": "MNP"
+ },
+ {
+  "country_code_a2": "no",
+  "country_code_a3": "NOR",
+  "country_name": "Norway",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.408349",
+  "name": "NOR"
+ },
+ {
+  "country_code_a2": "om",
+  "country_code_a3": "OMN",
+  "country_name": "Oman",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.411925",
+  "name": "OMN"
+ },
+ {
+  "country_code_a2": "pk",
+  "country_code_a3": "PAK",
+  "country_name": "Pakistan",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.414951",
+  "name": "PAK"
+ },
+ {
+  "country_code_a2": "pw",
+  "country_code_a3": "PLW",
+  "country_name": "Palau",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.418553",
+  "name": "PLW"
+ },
+ {
+  "country_code_a2": "ps",
+  "country_code_a3": "PSE",
+  "country_name": "Palestine, State of",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.421796",
+  "name": "PSE"
+ },
+ {
+  "country_code_a2": "pa",
+  "country_code_a3": "PAN",
+  "country_name": "Panama",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.425516",
+  "name": "PAN"
+ },
+ {
+  "country_code_a2": "pg",
+  "country_code_a3": "PNG",
+  "country_name": "Papua New Guinea",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.428568",
+  "name": "PNG"
+ },
+ {
+  "country_code_a2": "py",
+  "country_code_a3": "PRY",
+  "country_name": "Paraguay",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.432210",
+  "name": "PRY"
+ },
+ {
+  "country_code_a2": "pe",
+  "country_code_a3": "PER",
+  "country_name": "Peru",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.435265",
+  "name": "PER"
+ },
+ {
+  "country_code_a2": "ph",
+  "country_code_a3": "PHL",
+  "country_name": "Philippines",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.438846",
+  "name": "PHL"
+ },
+ {
+  "country_code_a2": "pn",
+  "country_code_a3": "PCN",
+  "country_name": "Pitcairn",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.441986",
+  "name": "PCN"
+ },
+ {
+  "country_code_a2": "pl",
+  "country_code_a3": "POL",
+  "country_name": "Poland",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.445511",
+  "name": "POL"
+ },
+ {
+  "country_code_a2": "pt",
+  "country_code_a3": "PRT",
+  "country_name": "Portugal",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.448641",
+  "name": "PRT"
+ },
+ {
+  "country_code_a2": "pr",
+  "country_code_a3": "PRI",
+  "country_name": "Puerto Rico",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.452178",
+  "name": "PRI"
+ },
+ {
+  "country_code_a2": "qa",
+  "country_code_a3": "QAT",
+  "country_name": "Qatar",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.455205",
+  "name": "QAT"
+ },
+ {
+  "country_code_a2": "re",
+  "country_code_a3": "REU",
+  "country_name": "Réunion",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.458719",
+  "name": "REU"
+ },
+ {
+  "country_code_a2": "ro",
+  "country_code_a3": "ROU",
+  "country_name": "Romania",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.461795",
+  "name": "ROU"
+ },
+ {
+  "country_code_a2": "ru",
+  "country_code_a3": "RUS",
+  "country_name": "Russian Federation",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.465400",
+  "name": "RUS"
+ },
+ {
+  "country_code_a2": "rw",
+  "country_code_a3": "RWA",
+  "country_name": "Rwanda",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.468521",
+  "name": "RWA"
+ },
+ {
+  "country_code_a2": "bl",
+  "country_code_a3": "BLM",
+  "country_name": "Saint Barthélemy",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.472102",
+  "name": "BLM"
+ },
+ {
+  "country_code_a2": "sh",
+  "country_code_a3": "SHN",
+  "country_name": "Saint Helena, Ascension and Tristan da Cunha",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.475450",
+  "name": "SHN"
+ },
+ {
+  "country_code_a2": "kn",
+  "country_code_a3": "KNA",
+  "country_name": "Saint Kitts and Nevis",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.479309",
+  "name": "KNA"
+ },
+ {
+  "country_code_a2": "lc",
+  "country_code_a3": "LCA",
+  "country_name": "Saint Lucia",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.482436",
+  "name": "LCA"
+ },
+ {
+  "country_code_a2": "mf",
+  "country_code_a3": "MAF",
+  "country_name": "Saint Martin (French part)",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.485976",
+  "name": "MAF"
+ },
+ {
+  "country_code_a2": "pm",
+  "country_code_a3": "SPM",
+  "country_name": "Saint Pierre and Miquelon",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.489102",
+  "name": "SPM"
+ },
+ {
+  "country_code_a2": "vc",
+  "country_code_a3": "VCT",
+  "country_name": "Saint Vincent and the Grenadines",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.492637",
+  "name": "VCT"
+ },
+ {
+  "country_code_a2": "ws",
+  "country_code_a3": "WSM",
+  "country_name": "Samoa",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.495846",
+  "name": "WSM"
+ },
+ {
+  "country_code_a2": "sm",
+  "country_code_a3": "SMR",
+  "country_name": "San Marino",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.499438",
+  "name": "SMR"
+ },
+ {
+  "country_code_a2": "st",
+  "country_code_a3": "STP",
+  "country_name": "Sao Tome and Principe",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.502775",
+  "name": "STP"
+ },
+ {
+  "country_code_a2": "sa",
+  "country_code_a3": "SAU",
+  "country_name": "Saudi Arabia",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.506452",
+  "name": "SAU"
+ },
+ {
+  "country_code_a2": "sn",
+  "country_code_a3": "SEN",
+  "country_name": "Senegal",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.509473",
+  "name": "SEN"
+ },
+ {
+  "country_code_a2": "rs",
+  "country_code_a3": "SRB",
+  "country_name": "Serbia",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.512906",
+  "name": "SRB"
+ },
+ {
+  "country_code_a2": "sc",
+  "country_code_a3": "SYC",
+  "country_name": "Seychelles",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.515951",
+  "name": "SYC"
+ },
+ {
+  "country_code_a2": "sl",
+  "country_code_a3": "SLE",
+  "country_name": "Sierra Leone",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.519406",
+  "name": "SLE"
+ },
+ {
+  "country_code_a2": "sg",
+  "country_code_a3": "SGP",
+  "country_name": "Singapore",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.522420",
+  "name": "SGP"
+ },
+ {
+  "country_code_a2": "sx",
+  "country_code_a3": "SXM",
+  "country_name": "Sint Maarten (Dutch part)",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.525992",
+  "name": "SXM"
+ },
+ {
+  "country_code_a2": "sk",
+  "country_code_a3": "SVK",
+  "country_name": "Slovakia",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.529037",
+  "name": "SVK"
+ },
+ {
+  "country_code_a2": "si",
+  "country_code_a3": "SVN",
+  "country_name": "Slovenia",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.532629",
+  "name": "SVN"
+ },
+ {
+  "country_code_a2": "sb",
+  "country_code_a3": "SLB",
+  "country_name": "Solomon Islands",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.535799",
+  "name": "SLB"
+ },
+ {
+  "country_code_a2": "so",
+  "country_code_a3": "SOM",
+  "country_name": "Somalia",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.539334",
+  "name": "SOM"
+ },
+ {
+  "country_code_a2": "za",
+  "country_code_a3": "ZAF",
+  "country_name": "South Africa",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.543075",
+  "name": "ZAF"
+ },
+ {
+  "country_code_a2": "gs",
+  "country_code_a3": "SGS",
+  "country_name": "South Georgia and the South Sandwich Islands",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.546513",
+  "name": "SGS"
+ },
+ {
+  "country_code_a2": "ss",
+  "country_code_a3": "SSD",
+  "country_name": "South Sudan",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.549474",
+  "name": "SSD"
+ },
+ {
+  "country_code_a2": "es",
+  "country_code_a3": "ESP",
+  "country_name": "Spain",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.552949",
+  "name": "ESP"
+ },
+ {
+  "country_code_a2": "lk",
+  "country_code_a3": "LKA",
+  "country_name": "Sri Lanka",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.556181",
+  "name": "LKA"
+ },
+ {
+  "country_code_a2": "sd",
+  "country_code_a3": "SDN",
+  "country_name": "Sudan",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.559853",
+  "name": "SDN"
+ },
+ {
+  "country_code_a2": "sr",
+  "country_code_a3": "SUR",
+  "country_name": "Suriname",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.563588",
+  "name": "SUR"
+ },
+ {
+  "country_code_a2": "sj",
+  "country_code_a3": "SJM",
+  "country_name": "Svalbard and Jan Mayen",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.567492",
+  "name": "SJM"
+ },
+ {
+  "country_code_a2": "se",
+  "country_code_a3": "SWE",
+  "country_name": "Sweden",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.570915",
+  "name": "SWE"
+ },
+ {
+  "country_code_a2": "ch",
+  "country_code_a3": "CHE",
+  "country_name": "Switzerland",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.574812",
+  "name": "CHE"
+ },
+ {
+  "country_code_a2": "sy",
+  "country_code_a3": "SYR",
+  "country_name": "Syrian Arab Republic",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.578362",
+  "name": "SYR"
+ },
+ {
+  "country_code_a2": "tw",
+  "country_code_a3": "TWN",
+  "country_name": "Taiwan, Province of China",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.582403",
+  "name": "TWN"
+ },
+ {
+  "country_code_a2": "tj",
+  "country_code_a3": "TJK",
+  "country_name": "Tajikistan",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.585854",
+  "name": "TJK"
+ },
+ {
+  "country_code_a2": "tz",
+  "country_code_a3": "TZA",
+  "country_name": "Tanzania, United Republic of",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.589700",
+  "name": "TZA"
+ },
+ {
+  "country_code_a2": "th",
+  "country_code_a3": "THA",
+  "country_name": "Thailand",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.592963",
+  "name": "THA"
+ },
+ {
+  "country_code_a2": "tl",
+  "country_code_a3": "TLS",
+  "country_name": "Timor-Leste",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.596640",
+  "name": "TLS"
+ },
+ {
+  "country_code_a2": "tg",
+  "country_code_a3": "TGO",
+  "country_name": "Togo",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.599702",
+  "name": "TGO"
+ },
+ {
+  "country_code_a2": "tk",
+  "country_code_a3": "TKL",
+  "country_name": "Tokelau",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.603428",
+  "name": "TKL"
+ },
+ {
+  "country_code_a2": "to",
+  "country_code_a3": "TON",
+  "country_name": "Tonga",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.606605",
+  "name": "TON"
+ },
+ {
+  "country_code_a2": "tt",
+  "country_code_a3": "TTO",
+  "country_name": "Trinidad and Tobago",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.610367",
+  "name": "TTO"
+ },
+ {
+  "country_code_a2": "tn",
+  "country_code_a3": "TUN",
+  "country_name": "Tunisia",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.613504",
+  "name": "TUN"
+ },
+ {
+  "country_code_a2": "tr",
+  "country_code_a3": "TUR",
+  "country_name": "Türkiye",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.617162",
+  "name": "TUR"
+ },
+ {
+  "country_code_a2": "tm",
+  "country_code_a3": "TKM",
+  "country_name": "Turkmenistan",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.620320",
+  "name": "TKM"
+ },
+ {
+  "country_code_a2": "tc",
+  "country_code_a3": "TCA",
+  "country_name": "Turks and Caicos Islands",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.624052",
+  "name": "TCA"
+ },
+ {
+  "country_code_a2": "tv",
+  "country_code_a3": "TUV",
+  "country_name": "Tuvalu",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.627267",
+  "name": "TUV"
+ },
+ {
+  "country_code_a2": "ug",
+  "country_code_a3": "UGA",
+  "country_name": "Uganda",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.630864",
+  "name": "UGA"
+ },
+ {
+  "country_code_a2": "ua",
+  "country_code_a3": "UKR",
+  "country_name": "Ukraine",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.634016",
+  "name": "UKR"
+ },
+ {
+  "country_code_a2": "ae",
+  "country_code_a3": "ARE",
+  "country_name": "United Arab Emirates",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.637438",
+  "name": "ARE"
+ },
+ {
+  "country_code_a2": "gb",
+  "country_code_a3": "GBR",
+  "country_name": "United Kingdom of Great Britain and Northern Ireland",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.640507",
+  "name": "GBR"
+ },
+ {
+  "country_code_a2": "us",
+  "country_code_a3": "USA",
+  "country_name": "United States of America",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.644155",
+  "name": "USA"
+ },
+ {
+  "country_code_a2": "um",
+  "country_code_a3": "UMI",
+  "country_name": "United States Minor Outlying Islands",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.647186",
+  "name": "UMI"
+ },
+ {
+  "country_code_a2": "uy",
+  "country_code_a3": "URY",
+  "country_name": "Uruguay",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.650654",
+  "name": "URY"
+ },
+ {
+  "country_code_a2": "uz",
+  "country_code_a3": "UZB",
+  "country_name": "Uzbekistan",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.653645",
+  "name": "UZB"
+ },
+ {
+  "country_code_a2": "vu",
+  "country_code_a3": "VUT",
+  "country_name": "Vanuatu",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.656990",
+  "name": "VUT"
+ },
+ {
+  "country_code_a2": "ve",
+  "country_code_a3": "VEN",
+  "country_name": "Venezuela, Bolivarian Republic of",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.660050",
+  "name": "VEN"
+ },
+ {
+  "country_code_a2": "vn",
+  "country_code_a3": "VNM",
+  "country_name": "Viet Nam",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.663600",
+  "name": "VNM"
+ },
+ {
+  "country_code_a2": "vg",
+  "country_code_a3": "VGB",
+  "country_name": "Virgin Islands (British)",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.666665",
+  "name": "VGB"
+ },
+ {
+  "country_code_a2": "vi",
+  "country_code_a3": "VIR",
+  "country_name": "Virgin Islands (U.S.)",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.673113",
+  "name": "VIR"
+ },
+ {
+  "country_code_a2": "wf",
+  "country_code_a3": "WLF",
+  "country_name": "Wallis and Futuna",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.682247",
+  "name": "WLF"
+ },
+ {
+  "country_code_a2": "eh",
+  "country_code_a3": "ESH",
+  "country_name": "Western Sahara",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.685848",
+  "name": "ESH"
+ },
+ {
+  "country_code_a2": "ye",
+  "country_code_a3": "YEM",
+  "country_name": "Yemen",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.689040",
+  "name": "YEM"
+ },
+ {
+  "country_code_a2": "zm",
+  "country_code_a3": "ZMB",
+  "country_name": "Zambia",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.692597",
+  "name": "ZMB"
+ },
+ {
+  "country_code_a2": "zw",
+  "country_code_a3": "ZWE",
+  "country_name": "Zimbabwe",
+  "docstatus": 0,
+  "doctype": "ISO Country Code",
+  "modified": "2024-11-12 12:27:29.695685",
+  "name": "ZWE"
+ }
+]

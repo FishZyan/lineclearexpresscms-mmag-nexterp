@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Default header style */
+        .header {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>{{ doc.company }}</h1>
+        <p>Address: {{ doc.company_address }}</p>
+    </div>
+
+    <!-- Rest of the invoice content goes here -->
+    <div class="content">
+        <p>Invoice Number: {{ doc.name }}</p>
+        <p>Customer: {{ doc.customer }}</p>
+        <p>Total Amount: {{ doc.grand_total }}</p>
+    </div>
+</body>
+</html>

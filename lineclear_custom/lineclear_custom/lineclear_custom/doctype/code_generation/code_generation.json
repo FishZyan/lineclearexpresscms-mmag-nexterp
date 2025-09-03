@@ -1,0 +1,62 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-08-12 08:21:27.177274",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "debtor_code_generation_disable",
+  "debtor_code_format",
+  "creditor_code_generation_disable",
+  "creditor_code_format"
+ ],
+ "fields": [
+  {
+   "fieldname": "debtor_code_format",
+   "fieldtype": "Select",
+   "label": "Debtor Code Format",
+   "options": "300-@#####\n1000-{Currency}-@###"
+  },
+  {
+   "fieldname": "creditor_code_format",
+   "fieldtype": "Select",
+   "label": "Creditor Code Format",
+   "options": "400-@#####\n2000-{Currency}-@###"
+  },
+  {
+   "default": "0",
+   "fieldname": "debtor_code_generation_disable",
+   "fieldtype": "Check",
+   "label": "Debtor Code Generation Disable"
+  },
+  {
+   "default": "0",
+   "fieldname": "creditor_code_generation_disable",
+   "fieldtype": "Check",
+   "label": "Creditor Code Generation Disable"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-09-03 09:45:50.208864",
+ "modified_by": "Administrator",
+ "module": "LineClear Custom",
+ "name": "Code Generation",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

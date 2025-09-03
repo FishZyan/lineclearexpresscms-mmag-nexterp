@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-08-22 17:12:21.114541",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "file_type",
+  "file",
+  "file_directory",
+  "grace_period_days",
+  "skip_on_creation"
+ ],
+ "fields": [
+  {
+   "fieldname": "file_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "File Type",
+   "options": "Debtor Statement\nDebtor Statement (With Details)\nFirst Reminder Letter\nSecond Reminder Letter\nThird Reminder Letter\nOverdue Letter",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "file.file_url",
+   "fieldname": "file_directory",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "label": "File Directory"
+  },
+  {
+   "default": "0",
+   "fieldname": "grace_period_days",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Grace Period (Days)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "file",
+   "fieldtype": "Link",
+   "label": "File",
+   "options": "File",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "skip_on_creation",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Skip On Creation"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-08-28 14:20:55.739150",
+ "modified_by": "Administrator",
+ "module": "LineClear Custom",
+ "name": "Debtor Statement File",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

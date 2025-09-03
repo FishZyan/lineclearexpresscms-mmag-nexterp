@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Resporitory -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body style="margin-bottom: 0px !important; padding-bottom: 0px !important;">
+    <!-- Letter Head -->
+    {% if letter_head %}
+        {{ letter_head }}
+    {% endif %}
+
+    <!-- Title -->
+    <h5 class="text-center"><strong>{{ title }}</strong></h5>
+
+    <!-- Metadata -->
+    <div class="container">
+        <div class="row">
+            <div class="col-1 mr-2">
+                <div class="row justify-content-end mb-2">A/C No.:</div>
+                <div class="row justify-content-end mb-2">Debtor:</div>
+                <div class="row justify-content-end mb-2">Address:</div>
+            </div>
+
+            <div class="col-6">
+                <div class="row mb-2">{{ customer.debtor_code }}</div>
+                <div class="row mb-2">{{ customer.customer_name }}</div>
+                <div class="row mb-2">
+                    {% if address.unit_number %}
+                        {{ address.unit_number }}<br>
+                    {% endif %}
+                    {{ address.address_line1 }}<br>
+                    {% if address.address_line2 %}
+                        {{ address.address_line2 }}<br>
+                    {% endif %}
+                    {{ address.city }}<br>
+                    {{ address.state }}
+                </div>
+            </div>
+
+            <div class="col-2 mr-2">
+                <div class="row justify-content-end mb-2">Statement Date:</div>
+                <div class="row justify-content-end mb-2">Terms:</div>
+                <div class="row justify-content-end mb-2">Page:</div>
+            </div>
+
+            <div class="col-2">
+                <div class="row mb-2">{{ statement_date }}</div>
+                <div class="row mb-2">{{ customer.payment_terms }}</div>
+                <div class="row mb-2">{{ page }} of {{ total_pages }}</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex flex-column" style="height: 1075px;">
+        <!-- Statements -->
+        <div style="margin-top: 5px; flex-grow: 1;">
+            <table class="table table-borderless">
+                <thead class="p-0" style="border-top: 1px solid #000; border-bottom: 1px solid #000;">
+                    <tr>
+                        <th style="font-weight: 400; padding-top: 0px; padding-bottom: 0px;">DATE</th>
+                        <th style="font-weight: 400; padding-top: 0px; padding-bottom: 0px;">SOURCE</th>
+                        <th style="font-weight: 400; padding-top: 0px; padding-bottom: 0px;">REF.</th>
+                        <th style="font-weight: 400; padding-top: 0px; padding-bottom: 0px;">DESCRIPTION</th>
+                        <th style="font-weight: 400; padding-top: 0px; padding-bottom: 0px; text-align: right;">DR</th>
+                        <th style="font-weight: 400; padding-top: 0px; padding-bottom: 0px; text-align: right;">CR</th>
+                        <th style="font-weight: 400; padding-top: 0px; padding-bottom: 0px; text-align: right;">BALANCE</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% set ns = namespace(count=0) %}
+                    {% for row in statements %}
+                    <tr>
+                        <td class="pt-2 pb-0" style="{% if (row.row_index or 0) > 1 %}padding-left: 20px !important; font-style: italic;{% endif %}">{{ row.date }}</td>
+                        <td class="pt-2 pb-0" style="{% if (row.row_index or 0) > 1 %}padding-left: 20px !important; font-style: italic;{% endif %}">{{ row.source }}</td>                     
+                        <td class="pt-2 pb-0" style="{% if (row.row_index or 0) > 1 %}padding-left: 20px !important; font-style: italic;{% endif %}">{{ row.name }}</td>
+                        <td class="pt-2 pb-0" style="{% if (row.row_index or 0) > 1 %}font-style: italic;{% endif %}">{{ row.description if row.description else '-' }}</td>
+                        <td class="pt-2 pb-0" style="text-align: right; {% if (row.row_index or 0) > 1 %}font-style: italic;{% endif %}">{% if row.debit is not none %}{{ "{:,.2f}".format(row.debit) }}{% endif %}</td>
+                        <td class="pt-2 pb-0" style="text-align: right; {% if (row.row_index or 0) > 1 %}font-style: italic;{% endif %}">{% if row.credit is not none %}{{ "{:,.2f}".format(row.credit) }}{% endif %}</td>
+                        <td class="pt-2 pb-0" style="text-align: right; {% if (row.row_index or 0) > 1 %}font-style: italic;{% endif %}">{{ "{:,.2f}".format(row.balance) }}</td>
+                    </tr>
+                    {% set ns.count = ns.count + 1 %}
+                    {% endfor %}
+
+                    {% if footer %}
+                        {% set counts = 30 - footer_size - ns.count %}
+                    {% else %}
+                        {% set counts = 30 - ns.count %}
+                    {% endif %}
+
+                    {% if counts > 0 %}
+                        {% for i in range(counts) %}
+                        <tr >
+                            <td class="pt-1 pb-0">&nbsp;</td>
+                        </tr>
+                        {% endfor %}
+                    {% endif %}
+                </tbody>
+            </table>
+        </div>
+
+
+        <!-- Footer -->
+        {% if footer %}
+        <footer class="mt-auto" style="border-top: 1px solid #000;">
+            <div class="d-flex mb-1">
+                <p class="text-start flex-grow-1">RINGGIT MALAYSIA {{ money2words }}</p>
+                <p class="text-end text-nowrap">RM {{ "{:,.2f}".format(outstanding_balance) }}</p>
+            </div>
+
+            <table class="table table-bordered text-center mb-2" style="border-collapse: collapse; width: 100%;">
+            <thead>
+                <tr>
+                    <th>CURRENT</th>
+                    <th>1 MONTH</th>
+                    <th>2 MONTHS</th>
+                    <th>3 MONTHS</th>
+                    <th>4 MONTHS</th>
+                    <th>5 &amp; OVER</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    {% for i in range(1, 7) %}
+                        {% set bucket = "range" ~ i %}
+                        {% set match = ageing | selectattr("aging_bucket", "equalto", bucket) | first %}
+                        <td>{{ "%.2f"|format(match.total if match else 0) }}</td>
+                    {% endfor %}
+                </tr>
+            </tbody>
+            </table>
+
+            <p class="mb-0">
+                <strong>
+                    All cheques should be crossed and made payable to "{{ company }}"
+                    <br>
+                    {{ bank.bank }} ACC: {{ bank.bank_account_no }}
+                </strong>
+            </p>
+        </footer>
+        {% endif %}
+    </div> 
+</body>
+</html>

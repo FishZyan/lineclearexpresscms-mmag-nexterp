@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-08-22 17:09:03.562911",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "general_section",
+  "auto_generate_reminder_on_creation",
+  "section_break_xtkz",
+  "table_files"
+ ],
+ "fields": [
+  {
+   "fieldname": "table_files",
+   "fieldtype": "Table",
+   "label": "File Manager",
+   "options": "Debtor Statement File"
+  },
+  {
+   "fieldname": "general_section",
+   "fieldtype": "Section Break",
+   "label": "General"
+  },
+  {
+   "default": "0",
+   "fieldname": "auto_generate_reminder_on_creation",
+   "fieldtype": "Check",
+   "label": "Auto Generate Reminder On Creation"
+  },
+  {
+   "fieldname": "section_break_xtkz",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-08-28 14:18:18.006216",
+ "modified_by": "Administrator",
+ "module": "LineClear Custom",
+ "name": "Debtor Statement Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

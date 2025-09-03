@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Resporitory -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body style="margin-bottom: 0px !important; padding-bottom: 0px !important;">
+    <!-- Variables -->
+    {% set ns = namespace(count=0, total_amount=0, total_tax_amount=0, total_net_amount=0) %}
+    {% for row in doc.custom_accounting_entires %}
+        {% set ns.total_amount = ns.total_amount + (row.amount or 0) %}
+        {% set ns.total_tax_amount = ns.total_tax_amount + (row.tax_amount or 0) %}
+        {% set ns.total_net_amount = ns.total_net_amount + ((row.amount + row.tax_amount) or 0) %}
+    {% endfor %}
+
+    <!-- Letter Head -->
+    {% if letter_head %}
+        {{ letter_head }}
+    {% endif %}
+
+    <!-- Title -->
+    <h5 class="text-center"><strong>CREDIT NOTE</strong></h5>
+
+    <!-- Metadata -->
+    <div class="container">
+        <div class="row">
+            <div class="col-7">
+                <div class="row mb-2">{{ customer.customer_name }}</div>
+                <div class="row mb-2 d-flex flex-column">
+                    <p class="mb-2 pb-0">
+                        {% if address.unit_number %}
+                            {{ address.unit_number }}<br>
+                        {% endif %}
+                        {{ address.address_line1 }}<br>
+                        {% if address.address_line2 %}
+                            {{ address.address_line2 }}<br>
+                        {% endif %}
+                        {% if address.city %}
+                            {{ address.city }},
+                        {% endif %}
+                        {{ address.state }}.
+                    </p>
+                    
+                    <table class="m-0 p-0">
+                        <tr>
+                            <td>TEL </td>
+                            <td>:</td>
+                            <td>{{ contact.phone if contact.phone else '' }}</td>
+                        </tr>
+                        <tr>
+                            <td>EMAIL</td>
+                            <td>:</td>
+                            <td>{{ contact.email if contact.email else '' }}</td>
+                        </tr>
+                        <tr>
+                            <td>SSM No</td>
+                            <td>:</td>
+                            <td>{{ customer.custom_registration_no if customer.custom_registration_no else '' }}</td>
+                        </tr>
+                        <tr>
+                            <td>SST Registration No</td>
+                            <td>:</td>
+                            <td>{{ customer.custom_sst_registration_no if customer.custom_sst_registration_no else '' }}</td>
+                        </tr>
+                        <tr>
+                            <td>SST Sub Type</td>
+                            <td>:</td>
+                            <td>{{ customer.sst_subtype if customer.sst_subtype else '' }}</td>
+                        </tr>
+                        <tr>
+                            <td>TIN No</td>
+                            <td>:</td>
+                            <td>{{ customer.tax_id if customer.tax_id else '' }}</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="col-4">
+                <div>
+                    <table>
+                        <tr>
+                            <td><strong>No.</strong></td>
+                            <td>:</td>
+                            <td><strong>{{ invoice_no }}</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Terms</td>
+                            <td>:</td>
+                            <td>{{ customer.payment_terms }}</td>
+                        </tr>
+                        <tr>
+                            <td>Date</td>
+                            <td>:</td>
+                            <td>{{ statement_date }}</td>
+                        </tr>
+                        <tr>
+                            <td>Page</td>
+                            <td>:</td>
+                            <td>{{ page }} of {{ total_pages }}</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <br>
+
+                <div class="d-flex justify-content-between">
+                    <div style="margin-right: 5% !important;">
+                        <table class="table table-borderless" style="border: 1px solid #000;">
+                            <thead>
+                                <tr>
+                                    <th class="text-center text-nowrap" style="background-color: #ccc !important;"><strong>Total Payable (RM)</strong></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td class="text-center" style="font-size: 30px;"><strong>{{ "{:,.2f}".format(ns.total_net_amount) }}</strong></td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                        {% if doc.custom_lhdn_status == 'Valid' %}
+                            <img style="height: 120px; width: 120px;" src="https://api.qrserver.com/v1/create-qr-code/?data={{ doc.custom_qr_code_link }}&size=150x150" alt="QR Code">
+                            <figcaption class="text-nowrap" style="font-size: 12px; text-align: center;">e-invoicing</figcaption>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex flex-column" style="height: 950px;">
+        <!-- Items -->
+        <div style="margin-top: 5px; flex-grow: 1;">
+            <table class="table table-sm table-borderless">
+                <thead class="p-0" style="height: 1px; border-top: 1px solid #000; border-bottom: 1px solid #000;">
+                    <tr>
+                        <th style="font-weight: 400; padding-top: 0px; padding-bottom: 0px; text-align: center;">#</th>
+                        <th style="font-weight: 400; padding-top: 0px; padding-bottom: 0px;">Tax Code</th>
+                        <th style="font-weight: 400; padding-top: 0px; padding-bottom: 0px; text-align: left;" colspan="4">Description</th>
+                        <th style="font-weight: 400; padding-top: 0px; padding-bottom: 0px; text-align: left;">Ref.</th>
+                        <th style="font-weight: 400; padding-top: 0px; padding-bottom: 0px;">Class.</th>
+                        <th style="font-weight: 400; padding-top: 0px; padding-bottom: 0px; text-align: right;">Amount</th>
+                        <th style="font-weight: 400; padding-top: 0px; padding-bottom: 0px; text-align: right;">Tax</th>
+                        <th style="font-weight: 400; padding-top: 0px; padding-bottom: 0px; text-align: right;">Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% set footer_size = 12 %}
+                    {% for row in statements %}
+                        <tr>
+                            <td class="pt-1 pb-0 text-center">{{ loop.index }}</td>
+                            <td class="pt-1 pb-0">{{ row.tax_code[0:row.tax_code|length - 8] if row.tax_code else ''}}</td>
+                            <td class="pt-1 pb-0 text-left" colspan="4">{{ row.description if row.description else '-' }}</td>
+                            <td class="pt-1 pb-0 text-left">{{ row.reference if row.reference else '-' }}</td>
+                            <td class="pt-1 pb-0 text-center">{{ row.item_classification_code if row.item_classification_code else '-' }}</td>
+                            <td class="pt-1 pb-0" style="text-align: right;">{{ "{:,.2f}".format(row.amount) }}</td>
+                            <td class="pt-1 pb-0" style="text-align: right;">{{ "{:,.2f}".format(row.tax_amount) if row.tax_amount > 0 else '-' }}</td>
+                            <td class="pt-1 pb-0" style="text-align: right;">{{ "{:,.2f}".format(row.amount + row.tax_amount) }}</td>
+                        </tr>
+                        {% set ns.count = ns.count + row.row_cost %}
+                    {% endfor %}
+
+                    {% if footer %}
+                        {% set counts = 30 - footer_size - ns.count %}
+                    {% else %}
+                        {% set counts = 30 - ns.count %}
+                    {% endif %}
+
+                    {% if counts > 0 %}
+                        {% for i in range(counts) %}
+                        <tr>
+                            <td class="pt-1 pb-0">&nbsp;</td>
+                        </tr>
+                        {% endfor %}
+                    {% endif %}
+                </tbody>
+                
+                {% if footer %}
+                <tfoot style="border-top: 1px solid #000;">
+                    <tr>
+                        <td class="pt-2 pb-0 text-start" colspan="8">RINGGIT MALAYSIA {{ money2words }}</td>
+                        <td class="pt-2 pb-0" style="text-align: right;">
+                            {{ "{:,.2f}".format(ns.total_amount) if ns.total_amount > 0 else '-' }}
+                        </td>
+                        <td class="pt-2 pb-0" style="text-align: right;">
+                            {{ "{:,.2f}".format(ns.total_tax_amount) if ns.total_tax_amount > 0 else '-' }}
+                        </td>
+                        <td class="pt-2 pb-0" style="text-align: right;">
+                            {{ "{:,.2f}".format(ns.total_net_amount) if ns.total_net_amount > 0 else '-' }}
+                        </td>
+                    </tr>
+                </tfoot>
+                {% endif %}
+            </table>
+        </div>
+
+
+        <!-- Footer -->
+        {% if footer %}
+        <footer class="mt-auto">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <!-- JomPay -->
+                    <div class="col-7 m-0 p-0">
+                        <p>
+                            {% if doc.user_remark %}
+                            Reason: {{ doc.user_remark[:290] }}
+                            {% endif %}
+                        </p>
+                    </div>
+
+                    <!-- Summary -->
+                    <div class="col-5 m-0 p-0 pr-1">
+                        <table style="width: 100%;">
+                            <tr>
+                                <td style="text-align: left;">Sub Total (Excl. SST)</td>
+                                <td>:</td>
+                                <td style="text-align: right;">{{ "{:,.2f}".format(ns.total_amount) if ns.total_amount > 0 else '-' }}</td>
+                            </tr>
+                            <tr>
+                                {% if customer.sst_exemption %}
+                                <td style="text-align: left;">Exemption SST @ 6%</td>
+                                {% else %}
+                                <td style="text-align: left;">Service Tax @ 6%</td>
+                                {% endif %}
+                                <td>:</td>
+                                <td style="text-align: right;">{{ "{:,.2f}".format(ns.total_tax_amount) if ns.total_tax_amount > 0 else '-' }}</td>
+                            </tr>
+                            <tr style="border-top: 1px solid #000;">
+                                <td style="text-align: left;"><strong>Total (Incl. SST)</strong></td>
+                                <td>:</td>
+                                <td style="text-align: right;"><strong>{{ "{:,.2f}".format(ns.total_net_amount) if ns.total_net_amount > 0 else '-' }}</strong></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-between">
+                    <!-- Payment Method -->
+                    <div class="col-8 p-0">
+                        <small>
+                            <p>
+                                Payment Method:
+                                <br>
+                                1. All cheques should be crossed and made payable to {{ company }}
+                                <br>
+                                2. Overdue Interest at the rate of 1.5% per month will be charged on all overdue amounts.
+                                <br>
+                                3. {{ company }} Bank Details: Malayan Banking Berhad<br>
+                                (Account No.: 5127 5451 2862)
+                                <br>
+                                4. Please email bank-in slip / credit advice to bcc@lineclearexpress.com
+                                <br>
+                                5. Online payment (KiplePay) is now available for our customers! It is safe, hassle-free and you can pay invoice anytime. Just access from OMS system and pay your invoice.
+                            </p>
+                        </small>
+                    </div>
+
+                    <!-- E-Invoice Details -->
+                    <div class="col-4 p-0 pr-1 mt-auto">
+                        <small>
+                            <p style="text-align: right;">
+                                E-INVOICE<br>
+                                Doc No: {{ invoice_no }}<br>
+                                UUID. {{ doc.custom_uuid }}<br>
+                                Submitted on: {{ doc.validation_date }}
+                            </p>
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+            <small><p class="text-center"><strong>Thank you for choosing {{ company }}</strong></p></small>
+        </footer>
+        {% endif %}
+    </div>
+</body>
+</html>

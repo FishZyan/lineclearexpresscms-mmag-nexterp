@@ -1,0 +1,105 @@
+{
+ "_comments": "[{\"comment\": \"Action Failed<br><br><pre><code>Traceback (most recent call last):\\n  File \\\"apps/frappe/frappe/mod...\", \"by\": \"Administrator\", \"name\": \"bdl09d54mr\"}]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "prompt",
+ "creation": "2025-08-15 17:06:20.011976",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "uuid",
+  "submission_uuid",
+  "long_id",
+  "invoice_type",
+  "invoice_id",
+  "lhdn_status",
+  "submission_date_time",
+  "qr_code_link"
+ ],
+ "fields": [
+  {
+   "fieldname": "uuid",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "UUID",
+   "read_only": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "submission_uuid",
+   "fieldtype": "Data",
+   "label": "Submission UUID",
+   "read_only": 1
+  },
+  {
+   "fieldname": "long_id",
+   "fieldtype": "Data",
+   "label": "Long ID",
+   "read_only": 1
+  },
+  {
+   "fieldname": "invoice_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Invoice Type",
+   "options": "\nSales Invoice\nJournal Entry\nPurchase Invoice",
+   "read_only": 1
+  },
+  {
+   "fieldname": "invoice_id",
+   "fieldtype": "Dynamic Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Invoice ID",
+   "options": "invoice_type",
+   "read_only": 1
+  },
+  {
+   "fieldname": "lhdn_status",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "LHDN Status",
+   "read_only": 1
+  },
+  {
+   "fieldname": "submission_date_time",
+   "fieldtype": "Datetime",
+   "label": "Submission Date Time",
+   "read_only": 1
+  },
+  {
+   "fieldname": "qr_code_link",
+   "fieldtype": "Attach",
+   "label": "QR Code Link",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-15 17:19:03.371938",
+ "modified_by": "Administrator",
+ "module": "LineClear Custom",
+ "name": "LHDN Log",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

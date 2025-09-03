@@ -1,0 +1,154 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "State",
+  "modified": "2024-06-30 05:52:13.763192",
+  "name": "Johor",
+  "state": "Johor",
+  "state_code": "01"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "State",
+  "modified": "2024-07-25 21:20:55.935939",
+  "name": "All States",
+  "state": "All States",
+  "state_code": "0"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "State",
+  "modified": "2024-09-11 15:37:52.397923",
+  "name": "Kelantan",
+  "state": "Kelantan",
+  "state_code": "03"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "State",
+  "modified": "2024-09-11 15:38:05.346148",
+  "name": "Negeri Sembilan",
+  "state": "Negeri Sembilan",
+  "state_code": "05"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "State",
+  "modified": "2024-09-11 15:38:12.265322",
+  "name": "Pahang",
+  "state": "Pahang",
+  "state_code": "06"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "State",
+  "modified": "2024-09-11 15:38:24.984679",
+  "name": "Pulau Pinang",
+  "state": "Pulau Pinang",
+  "state_code": "07"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "State",
+  "modified": "2024-07-25 21:20:56.058925",
+  "name": "Perlis",
+  "state": "Perlis",
+  "state_code": "09"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "State",
+  "modified": "2024-07-25 21:20:56.080762",
+  "name": "Terengganu",
+  "state": "Terengganu",
+  "state_code": "11"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "State",
+  "modified": "2024-07-25 21:20:56.094182",
+  "name": "Sabah",
+  "state": "Sabah",
+  "state_code": "12"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "State",
+  "modified": "2024-07-25 21:20:56.107224",
+  "name": "Sarawak",
+  "state": "Sarawak",
+  "state_code": "13"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "State",
+  "modified": "2024-07-25 21:20:56.118301",
+  "name": "Wilayah Persekutuan Kuala Lumpur",
+  "state": "Wilayah Persekutuan Kuala Lumpur",
+  "state_code": "14"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "State",
+  "modified": "2024-07-25 21:20:56.129844",
+  "name": "Wilayah Persekutuan Labuan",
+  "state": "Wilayah Persekutuan Labuan",
+  "state_code": "15"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "State",
+  "modified": "2024-07-25 21:20:56.142628",
+  "name": "Wilayah Persekutuan Putrajaya",
+  "state": "Wilayah Persekutuan Putrajaya",
+  "state_code": "16"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "State",
+  "modified": "2024-09-11 15:36:54.379201",
+  "name": "Perak",
+  "state": "Perak",
+  "state_code": "08"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "State",
+  "modified": "2024-07-25 21:20:56.152708",
+  "name": "Not Applicable",
+  "state": "Not Applicable",
+  "state_code": "17"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "State",
+  "modified": "2024-07-25 21:20:56.070127",
+  "name": "Selangor",
+  "state": "Selangor",
+  "state_code": "10"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "State",
+  "modified": "2024-09-11 15:37:59.229362",
+  "name": "Melaka",
+  "state": "Melaka",
+  "state_code": "04"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "State",
+  "modified": "2024-09-17 09:50:20.063005",
+  "name": "Chongqing",
+  "state": "Chongqing",
+  "state_code": "CQ CHINA"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "State",
+  "modified": "2024-09-11 15:37:45.144863",
+  "name": "Kedah",
+  "state": "Kedah",
+  "state_code": "02"
+ }
+]

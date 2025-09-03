@@ -1,0 +1,93 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-14 08:23:49.239347",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "document_type",
+  "file_attach",
+  "template",
+  "error_row",
+  "status",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "file_attach",
+   "fieldtype": "Attach",
+   "label": "File",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "document_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Document Type",
+   "options": "\nSales Invoice\nCredit Note\nDebit Note\nPayment Entry",
+   "reqd": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "error_row",
+   "fieldtype": "Attach",
+   "label": "Error Row",
+   "no_copy": 1,
+   "options": "File",
+   "read_only": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Status",
+   "read_only": 1
+  },
+  {
+   "fieldname": "template",
+   "fieldtype": "Button",
+   "hidden": 1,
+   "label": "Template",
+   "no_copy": 1,
+   "options": "Import Data",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Import Data",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-04-18 10:52:52.222841",
+ "modified_by": "Administrator",
+ "module": "LineClear Custom",
+ "name": "Import Data",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
