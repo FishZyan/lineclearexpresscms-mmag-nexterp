@@ -93,4 +93,17 @@ function create_download_button(frm) {
             const url = `/api/method/lineclear_custom.lineclear_custom.journal_entry_api.download_entry?doc_no=${frm.doc.name}`;
             window.open(url);
         }, __("Actions"));
+
+    if (frm.doc.custom_lhdn_status != "InProgress" && frm.doc.custom_lhdn_status != "Valid") {
+        if (frm.doc.voucher_type == "Debit Note" || frm.doc.voucher_type == "Credit Note") {
+            frm.add_custom_button("Update LHDN Enable Control", () => { 
+                frappe.call({
+                    method: "lineclear_custom.lineclear_custom.update_lhdn_enable_control.journal_entry_set_lhdn_control",
+                    args: {
+                        doc_no: frm.doc.name
+                    }
+                });
+            }, __("Actions"));
+        }
+    }
 }
